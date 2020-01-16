@@ -1,7 +1,4 @@
 #include <iostream>
-#include <stdlib.h>
-#include <time.h>
-
 using namespace std;
 
 int Llenado();
@@ -9,7 +6,7 @@ int sumaPrimos(int *numeros[], int 100);
 int main()
 {
    Llenado();
-   
+
 }
 int Llenado(){
     int numeros[100];
@@ -23,6 +20,6 @@ int Llenado(){
 }
 
 int sumaPrimos(int *numeros[]; int 100){
-    
+
 }
-//No pude hacer la sumatoria de los primos
+//No pude hacer la sumatoria de los primos...
