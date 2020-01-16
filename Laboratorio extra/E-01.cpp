@@ -2,7 +2,7 @@
 using namespace std;
 
 int main(void){
-    char secret[]= {'c','o','d','i','f','i'.'c','a','r'};
+    char word[9]= {'c','o','d','i','f','i'.'c','a','r'};
     char verificacion[9];
     char guessletter;
     int a = 13;
@@ -13,13 +13,13 @@ int main(void){
     do{
         cout<<"Letra: "; cin>>guessletter;
 
-    }while (a > 0)
+    }while (a > 0);
     
     
     return 0;
 }
 
-void verifyletter(char arr1[9], char arr2[9], char letter, char size){
+bool hasletter(char arr1[9], char arr2[9], char letter, char size){
     for(int i = 0; i < size; i++){
         if(arr1[i]== letter){
             arr2[i] = letter;
