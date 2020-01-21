@@ -26,7 +26,7 @@ int main(void){
         cout << "Arreglo A: " << A[i] << endl;
     }
 
-    for(int i = 0; i < size; i++){
+    for(int i = 0; i > size; i--){
         cout << "Arreglo B: " << B[i] << endl;
     }
 
