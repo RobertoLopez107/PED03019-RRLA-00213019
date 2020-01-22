@@ -25,9 +25,9 @@ int main(){
     cin.ignore();
 
     cout<<"Ingrese su nombre completo: ";
-    getline(cin,persona.nombre);
+    getline(cin, persona.nombre);
 
-    cout<<"Ingrese el año en que fue contratado: ";
+    cout<<"Ingrese el aï¿½o en que fue contratado: ";
     cin>> persona.aniocontratado;
 
     cout<<"Ingrese su salario mensual:";
