@@ -55,4 +55,6 @@ int suma(int total[], int a){
 
        k= total[a] + suma(total,a) ;
     }
+
+    cout<<"h";
 }

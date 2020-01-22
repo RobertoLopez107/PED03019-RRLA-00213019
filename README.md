@@ -70,7 +70,7 @@
 
 ###Dificultades en ejercicios de tarea.
 
-*Dificultad 1:
+*Dificultad 1: Hacer la sumatoria total del costo y venta
 
 *Dificultad 2:
 
