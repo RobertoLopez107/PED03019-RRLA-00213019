@@ -7,14 +7,14 @@ int k=0;
 
 int main(void){
     int n;
-
+   
 
     cout<<"Cuantos productos va a ingresar? "<<endl;
     cin>>n;
-
+    
     string nombres[n];
     int costo[10], venta[10];
-
+    
 
     for(int i = 0; i < n; i++){
         cout<<"Ingrese el nombre del producto: "<<endl;
@@ -38,10 +38,10 @@ int main(void){
     }
 
     suma(costo, n);
-
+    
     cout<<"TOTAL \t\t";
     cout<<k<<"\t\t";
-
+    
     suma(venta,n);
     cout<<k;
 
@@ -52,9 +52,7 @@ int suma(int total[], int a){
 
     a=a-1;
     if(a>=0){
-
+        
        k= total[a] + suma(total,a) ;
     }
-
-    cout<<"h";
 }
