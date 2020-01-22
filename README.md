@@ -53,3 +53,29 @@
 *Dificultad 4:
 
 *Dificultad 5:
+
+##Laboratorio 04
+
+###Observaciones al instructor.
+
+*Observacion 1: 
+
+*Observacion 2:
+
+*Observacion 3:
+
+*Observacion 4:
+
+*Observacion 5:
+
+###Dificultades en ejercicios de tarea.
+
+*Dificultad 1:
+
+*Dificultad 2:
+
+*Dificultad 3:
+
+*Dificultad 4:
+
+*Dificultad 5:
