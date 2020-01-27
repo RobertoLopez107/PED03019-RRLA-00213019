@@ -2,7 +2,7 @@
 
 using namespace std;
 
-void invertor(int n);
+void invert(int n);
 
 int main(void){
     int n;
@@ -10,7 +10,7 @@ int main(void){
     cin>>n;
 
     if(n>=0){
-        invertor(n); //Se manda a llamar la funcion.
+        invert(n); //Se manda a llamar la funcion.
     }
     else{
         cout<<"Error, ingrese un numero natural.";  //Si el numero es negativo da error
@@ -19,10 +19,10 @@ int main(void){
     return 0;
 }
 
-void invertor(int n){
-    cout<<n%10; //Se usa para enseñar el resudio
+void invert(int n){
+    cout<<n%10; //Se usa para enseï¿½ar el resudio
     if(n>=10){ //La condicion para que se haga la recursion
-        invertor (n/10); //Se va a hacer la recursion mientras no se cumpla la condicion.
+        invert (n/10); //Se va a hacer la recursion mientras no se cumpla la condicion.
     }
 }
 
