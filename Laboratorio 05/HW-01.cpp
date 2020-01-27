@@ -20,7 +20,7 @@ int main(){
         cout << "\nDesea agregar otro producto? (s/n): ";
         cin >> opcion; cin.ignore();
 
-        if(opcion == 's'){
+        if(opcion == 's'){        //Se guardan los productos
             Product unProduct;
             cout << "Precio: ";   getline(cin, unProduct.price);
             cout << "Nombre: ";   getline(cin, unProduct.name);
@@ -33,7 +33,7 @@ int main(){
             cout << "Opcion no valida!" << endl;
     }while(continuar);
 
-    cout << "\nProductos Almacenados" << endl;
+    cout << "\nProductos Almacenados" << endl;  //Se enseñan los productos almacenados arriba
     while(!pilaDeProductos.empty()){
         // Obtener el plato de encima (sin sacarlo de la pila)
         Product productDeEncima = pilaDeProductos.top();
