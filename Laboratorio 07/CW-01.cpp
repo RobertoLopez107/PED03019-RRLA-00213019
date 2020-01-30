@@ -1,5 +1,4 @@
 #include <iostream>
-
 using namespace std;
 
 struct node{
@@ -40,6 +39,7 @@ void print(node* list, int i, int n){
 
 node* queue(node* list, int n){
     node* newNode = new node;
+    
     newNode->n = n;
     newNode->flag = true;
     newNode->next = NULL;
@@ -53,7 +53,7 @@ node* queue(node* list, int n){
 
         while(aux->next)
             aux = aux->next;
-
+        
         aux->next = newNode;
     }
 
